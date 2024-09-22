@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/scroll"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc000000"
+        android:text="@string/scroll"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/speed_up"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc000000"
+        android:text="+"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/speed_down"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc000000"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/delay"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc000000"
+        android:text="delay"
+        android:textColor="@color/white" />
+</LinearLayout>
